@@ -1,0 +1,13 @@
+@import url(./_active/header__menu_active.css);
+@import url(./-list/header__menu-list.css);
+
+.header__menu {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}

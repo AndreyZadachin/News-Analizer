@@ -1,0 +1,8 @@
+.header__menu-list {
+  list-style: none;
+  margin: 30px 34px 23px 0;
+}
+
+.header__menu-list:last-child {
+  margin: 30px 101px 26px 0;
+}

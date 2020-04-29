@@ -1,0 +1,6 @@
+@import url(./__container/page__container.css);
+@import url(./__block/page__block.css);
+
+.page {
+  width: 100%;
+}

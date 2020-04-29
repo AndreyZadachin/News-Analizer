@@ -1,0 +1,6 @@
+.page__block {
+  width: 100%;
+  background-image: url('../../../images/search-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
