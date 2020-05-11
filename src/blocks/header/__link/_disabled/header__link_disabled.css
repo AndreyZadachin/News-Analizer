@@ -1,0 +1,7 @@
+.header__link_disabled {
+  color: #B6BCBF;
+}
+
+.header__link_disabled:hover {
+  color: #FFFFFF;
+}

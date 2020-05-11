@@ -1,0 +1,16 @@
+.page__header {
+  padding-left: 7.22%;
+}
+/*
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page__header {
+    padding-left: 5.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__header {
+    padding-left: 5%;
+  }
+}
+*/

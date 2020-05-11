@@ -1,0 +1,11 @@
+.carousel__cell {
+  padding: 24px;
+  width: 400px;
+  height: 288px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  margin-right: 16px;
+  box-sizing: border-box;
+  counter-increment: carousel-cell;
+  cursor: pointer;
+}

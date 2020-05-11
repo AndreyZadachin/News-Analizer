@@ -1,0 +1,30 @@
+@import url('./_end/analitic__scale-item_end.css');
+
+.analitic__scale-item {
+  width: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+  margin-bottom: 0;
+}
+
+.analitic__scale-item:first-child {
+  margin-right: 275px;
+}
+
+.analitic__scale-item:nth-child(3) {
+  margin-left: 242px;
+}
+
+.analitic__scale-item:nth-child(4) {
+  margin-left: 242px;
+}
+
+.analitic__scale-item:last-child {
+  margin-left: 267px;
+}

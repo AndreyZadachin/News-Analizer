@@ -1,0 +1,10 @@
+@import url('./-date/analitic__table-date.css');
+@import url('./-dates/analitic__table-dates.css');
+@import url('./-score/analitic__table-score.css');
+@import url('./-scores/analitic__table-scores.css');
+
+.analitic__table {
+  display: flex;
+  margin-top: -15px;
+  margin-bottom: -29px;
+}

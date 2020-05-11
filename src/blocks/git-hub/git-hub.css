@@ -1,0 +1,7 @@
+@import url('./__link/git-hub__link.css');
+@import url('./__title/git-hub__title.css');
+@import url('./__header/git-hub__header.css');
+
+.git-hub {
+  background: #F5F6F7;
+}

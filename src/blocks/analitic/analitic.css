@@ -1,0 +1,13 @@
+@import url('./__axis/analitic__axis.css');
+@import url('./__date/analitic__date.css');
+@import url('./__repeat/analitic__repeat.css');
+@import url('./__scale/analitic__scale.css');
+@import url('./__score/analitic__score.css');
+@import url('./__table/analitic__table.css');
+@import url('./__title/analitic__title.css');
+
+.analitic {
+  max-width: 1440px;
+  max-height: 866px;
+  background: #F5F6F7;
+}

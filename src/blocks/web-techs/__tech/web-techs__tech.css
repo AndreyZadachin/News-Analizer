@@ -1,0 +1,19 @@
+.web-techs__tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 41px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #1A1B22;
+}
+
+.web-techs__tech:last-child {
+  margin-right: 0;
+}

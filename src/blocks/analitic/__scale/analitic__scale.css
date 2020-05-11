@@ -1,0 +1,9 @@
+@import url('./-item/analitic__scale-item.css');
+
+.analitic__scale {
+  width: calc(1232px - 104px);
+  display: flex;
+  margin-top: 3px;
+  margin-left: 104px;
+  margin-bottom: -13px;
+}

@@ -1,0 +1,36 @@
+@import url('./__avatar/carousel__avatar.css');
+@import url('./__cell/carousel__cell.css');
+@import url('./__commit/carousel__commit.css');
+@import url('./__date/carousel__date.css');
+@import url('./__email/carousel__email.css');
+@import url('./__info/carousel__info.css');
+@import url('./__name/carousel__name.css');
+@import url('./__about/carousel__about.css');
+
+.carousel {
+  width: 100%;
+  padding: 0;
+}
+
+
+.carousel:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 6.1%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+  z-index: 1;
+}
+
+.carousel:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 6.1%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+  z-index: 1;
+}

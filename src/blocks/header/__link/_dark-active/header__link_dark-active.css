@@ -1,0 +1,24 @@
+.header__link_dark-active {
+  height: 100%;
+  color: #1A1B22;
+  border-bottom: 3px solid;
+  padding-bottom: 25px;
+}
+
+.header__link_dark-active:hover {
+  opacity: 0.6;
+}
+
+/*
+@media (max-width: 768px) {
+  .header__menu_active {
+    padding-bottom: 17px;
+  }
+}
+
+@media (min-width: 320px) {
+  .header__menu_active {
+    padding-bottom: 16px;
+  }
+}
+*/

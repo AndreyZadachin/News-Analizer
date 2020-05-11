@@ -1,10 +1,34 @@
 .search__subtitle {
-  width: 550px;
-  font-family: 'roboto';
+  width: 90%;
+  font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: white;
-  margin: 0 479px 64px 416px;
+  margin: 0 478px 64px 0;
 }
+
+/*
+@media (max-width: 1024px) {
+  .search__subtitle {
+    width: 100%;
+    margin-bottom: 24px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .search__subtitle {
+    margin: 0 156px 24px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .search__subtitle {
+    margin: 0 16px 64px 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+*/

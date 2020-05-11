@@ -1,0 +1,10 @@
+@import url('./__figure/web-techs__figure.css');
+@import url('./__container/web-techs__container.css');
+@import url('./__tech/web-techs__tech.css');
+@import url('./__title/web-techs__title.css');
+
+.web-techs {
+  display: flex;
+  flex-direction: row;
+  background: #F5F6F7;
+}

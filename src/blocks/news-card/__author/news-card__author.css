@@ -1,0 +1,14 @@
+.news-card__author {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+  margin: 0;
+  margin-left: 24px;
+  position: absolute;
+  bottom: 23px;
+}
