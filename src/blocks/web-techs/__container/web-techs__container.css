@@ -1,5 +1,18 @@
 .web-techs__container {
   display: flex;
   align-items: center;
-  padding-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .web-techs__container {
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .web-techs__container {
+    flex-wrap: wrap;
+  }
 }

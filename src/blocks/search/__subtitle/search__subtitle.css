@@ -9,26 +9,34 @@
   margin: 0 478px 64px 0;
 }
 
-/*
+
 @media (max-width: 1024px) {
   .search__subtitle {
     width: 100%;
     margin-bottom: 24px;
-
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 601px) and (max-width: 767px) {
   .search__subtitle {
-    margin: 0 156px 24px 0;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 426px) and (max-width: 600px) {
+  .search__title {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .search__subtitle {
     margin: 0 16px 64px 0;
     font-size: 20px;
     line-height: 26px;
+    width: 100%;
   }
 }
-*/

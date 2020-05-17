@@ -19,7 +19,7 @@
   background: #2A65CC;
 }
 
-/*
+
 @media (max-width: 1024px) {
   .search__button {
     width: 160px;
@@ -29,7 +29,15 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 426px) and (max-width: 767px) {
+  .search__button {
+    width: 288px;
+    height: 56px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .search__button {
     width: 288px;
     height: 56px;
@@ -38,4 +46,3 @@
     padding-right: 2px;
   }
 }
-*/

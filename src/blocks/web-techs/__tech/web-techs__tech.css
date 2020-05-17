@@ -6,14 +6,35 @@
   margin-right: 41px;
   font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.2px;
   color: #1A1B22;
+  margin: 0;
+  margin-top: 14px;
+  margin-right: 36px;
 }
 
 .web-techs__tech:last-child {
   margin-right: 0;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .web-techs__tech {
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .web-techs__tech {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .web-techs__tech:last-child {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
 }

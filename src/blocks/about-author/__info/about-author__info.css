@@ -5,3 +5,17 @@
   margin-top: 52px;
   margin-left: 56px;
 }
+
+
+@media (max-width: 768px) {
+  .about-author__info {
+    margin-top: 0;
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .about-author__info {
+    margin-left: 0;
+  }
+}

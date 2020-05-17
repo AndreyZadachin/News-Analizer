@@ -1,3 +1,15 @@
 .analitic__table-score.analitic__table-score_second {
-  padding-right: 237px;
+  padding-right: 21%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-score.analitic__table-score_second {
+    padding-right: 28.07%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {}
+.analitic__table-score.analitic__table-score_second {
+  padding-right: 17%;
 }

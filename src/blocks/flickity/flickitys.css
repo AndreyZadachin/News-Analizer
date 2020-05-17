@@ -31,3 +31,24 @@
 .previous {
   margin-left: 12px;
 }
+
+
+@media (max-width: 768px) {
+  .flickity-button {
+    display: none;
+  }
+  .dot.dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+  }
+  .flickity-page-dots {
+    bottom: -43px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .flickity-page-dots {
+    bottom: -26px;
+  }
+}

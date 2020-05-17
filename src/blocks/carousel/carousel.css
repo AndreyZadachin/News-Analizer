@@ -12,7 +12,6 @@
   padding: 0;
 }
 
-
 .carousel:before {
   content: '';
   position: absolute;
@@ -33,4 +32,14 @@
   height: 100%;
   background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
   z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .carousel:after {
+    display: none;
+  }
+  .carousel::before {
+    display: none;
+  }
 }

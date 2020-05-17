@@ -2,7 +2,7 @@
 @import url('./__list/request__list.css');
 @import url('./__text/request__text.css');
 @import url('./__title/request__title.css');
-@import url('./__container/request__container.css');
+@import url('./__text-span/request__text-span.css');
 
 .request {
   display: flex;

@@ -6,10 +6,10 @@
 @import url('./__about-author/page__about-author.css');
 @import url('./__footer/page__footer.css');
 @import url('./__git-hub/page__git-hub.css');
-@import url('./__footer-about/page__footer-about.css');
-@import url('./__footer-analitic/page__footer-analitic.css');
 @import url('./__request/page__request.css');
 @import url('./__analitic/page__analitic.css');
+@import url('./__info/page__info.css');
+@import url('./__web-techs/page__web-techs.css');
 
 .page {
   width: 100%;

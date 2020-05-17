@@ -1,3 +1,16 @@
 .analitic__table-score.analitic__table-score_fifth {
-  padding-right: 508px;
+  padding-right: 45%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-score.analitic__table-score_fifth {
+    padding-right: 61.57%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__table-score.analitic__table-score_fifth {
+    padding-right: 45%;
+  }
 }

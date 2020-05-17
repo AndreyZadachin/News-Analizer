@@ -8,6 +8,15 @@
 
 .footer {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    flex-direction: column-reverse;
+    position: relative;
+    align-items: unset;
+  }
 }

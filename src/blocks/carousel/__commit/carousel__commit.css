@@ -6,3 +6,10 @@
   line-height: 22px;
   color: #1A1B22;
 }
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .carousel__commit {
+    margin-top: 12px;
+  }
+}

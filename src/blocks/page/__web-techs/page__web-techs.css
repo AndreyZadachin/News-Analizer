@@ -1,0 +1,16 @@
+.page__web-techs {
+  padding: 5.56% 16% 5.5% 7.22%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page__web-techs {
+    padding: 5.2% 9.3% 4.7% 5.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__web-techs {
+    padding: 7.6% 3.8% 19.3% 3.8%;
+  }
+}

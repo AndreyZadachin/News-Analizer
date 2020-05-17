@@ -6,12 +6,12 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  text-decoration: none;
   color: white;
+  margin: 0;
   margin-right: 50%;
 }
 
-/*
+
 @media (max-width: 1024px) {
   .header__title {
     margin-right: 39%;
@@ -24,11 +24,16 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 426px) and (max-width: 767px) {
   .header__title {
-    margin-right: 8.2%;
+    margin-right: 30%;
     font-size: 16px;
-    line-height: 24px;
   }
 }
-*/
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .header__title {
+    margin-right: 9.3%;
+    font-size: 16px;
+  }
+}

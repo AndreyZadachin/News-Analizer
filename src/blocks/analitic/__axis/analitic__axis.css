@@ -1,7 +1,12 @@
 .analitic__axis {
-  width: 1232px;
+  max-width: 1232px;
   display: flex;
   margin-top: 48px;
-  border-bottom: 1px solid #1A1B22;
-  padding-bottom: 11px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__axis {
+    margin-top: 16px;
+  }
 }

@@ -1,4 +1,16 @@
 .page__news {
-  /*margin: 80px 104px 80px 104px;*/
   padding: 5.5% 7.3%;
+}
+
+
+@media (max-width: 768px) {
+  .page__news {
+  padding: 5.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 474px) {
+  .page__news {
+    padding: 10% 5% 14% 5%;
+  }
 }

@@ -8,5 +8,12 @@
   text-transform: uppercase;
   color: #B6BCBF;
   margin: 0;
-  margin-left: 54px;
+  margin-left: 4.4%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__repeat {
+    margin-left: 9.7%;
+  }
 }

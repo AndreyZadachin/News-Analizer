@@ -32,7 +32,7 @@
           </form>
         </main>
       </div>
-      <!--<section class="preloader">
+      <section class="preloader">
         <i class="preloader__circle"></i>
         <p class="preloader__info">Идет поиск новостей...</p>
       </section>
@@ -40,7 +40,7 @@
         <img class="not-found__image" src="<%=require('./images/not-found.svg').default%>">
         <h4 class="not-found__title">Ничего не найдено</h4>
         <p class="not-found__subtitle">К сожалению по вашему запросу ничего не найдено</p>
-      </section>-->
+      </section>
       <section class="news page__news">
         <div class="news__header">
           <h3 class="news__title">Результаты поиска</h3>
@@ -52,55 +52,67 @@
         <div class="news-card">
           <a href="https://lenta.ru" class="news-card__container link">
             <img class="news-card__image" alt="" src="<%=require('./images/lenta.png').default%>">
-            <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
-            <h3 class="news-card__title">Национальное достояние – парки</h3>
-            <p class="news-card__paragraph">В 2016 году Америка отмечала важный юбилей: сто лет
-              назад здесь начала складываться система национальных парков – охраняемых территорий, где и
-              сегодня каждый может приобщиться к природе.</p>
-            <p class="news-card__author">Лента.ру</p>
+            <div class="news-card__info">
+              <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
+              <h3 class="news-card__title">Национальное достояние – парки</h3>
+              <p class="news-card__paragraph">В 2016 году Америка отмечала важный юбилей: сто лет
+                назад здесь начала складываться система национальных парков – охраняемых территорий, где и
+                сегодня каждый может приобщиться к природе.</p>
+              <p class="news-card__author">Лента.ру</p>
+            </div>
           </a>
           <a href="https://meduza.io" class="news-card__container link">
             <img class="news-card__image" alt="" src="<%=require('./images/meduza.png').default%>">
-            <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
-            <h3 class="news-card__title">Лесные огоньки: история одной фотографии</h3>
-            <p class="news-card__paragraph">Фотограф отвлеклась от освещения суровой политической
-              реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-            <p class="news-card__author">Медуза</p>
+            <div class="news-card__info">
+              <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
+              <h3 class="news-card__title">Лесные огоньки: история одной фотографии</h3>
+              <p class="news-card__paragraph">Фотограф отвлеклась от освещения суровой политической
+                реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+              <p class="news-card__author">Медуза</p>
+            </div>
           </a>
           <a href="https://ria.ru" class="news-card__container link">
             <img class="news-card__image" alt="" src="<%=require('./images/ria.png').default%>">
-            <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
-            <h3 class="news-card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-            <p class="news-card__paragraph">Знаменитый фотограф снимает первозданные леса России,
-              чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу,
-              где...</p>
-            <p class="news-card__author">Риа</p>
+            <div class="news-card__info">
+              <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
+              <h3 class="news-card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+              <p class="news-card__paragraph">Знаменитый фотограф снимает первозданные леса России,
+                чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу,
+                где...</p>
+              <p class="news-card__author">Риа</p>
+            </div>
           </a>
           <a href="https://zen.yandex.ru" class="news-card__container link">
             <img class="news-card__image" alt="" src="<%=require('./images/dzen.png').default%>">
-            <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
-            <h3 class="news-card__title">Национальное достояние – парки</h3>
-            <p class="news-card__paragraph">В 2016 году Америка отмечала важный юбилей: сто лет
-              назад здесь начала складываться система национальных парков – охраняемых территорий, где и
-              сегодня каждый может приобщиться к природе.</p>
-            <p class="news-card__author">Дзен</p>
+            <div class="news-card__info">
+              <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
+              <h3 class="news-card__title">Национальное достояние – парки</h3>
+              <p class="news-card__paragraph">В 2016 году Америка отмечала важный юбилей: сто лет
+                назад здесь начала складываться система национальных парков – охраняемых территорий, где и
+                сегодня каждый может приобщиться к природе.</p>
+              <p class="news-card__author">Дзен</p>
+            </div>
           </a>
           <a href="https://www.afisha.ru" class="news-card__container link">
             <img class="news-card__image" alt="" src="<%=require('./images/afisha.png').default%>">
-            <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
-            <h3 class="news-card__title">Лесные огоньки: история одной фотографии</h3>
-            <p class="news-card__paragraph">Фотограф отвлеклась от освещения суровой политической
-              реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-            <p class="news-card__author">Афиша</p>
+            <div class="news-card__info">
+              <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
+              <h3 class="news-card__title">Лесные огоньки: история одной фотографии</h3>
+              <p class="news-card__paragraph">Фотограф отвлеклась от освещения суровой политической
+                реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+              <p class="news-card__author">Афиша</p>
+            </div>
           </a>
           <a href="https://zona.media" class="news-card__container link">
             <img class="news-card__image" alt="" src="<%=require('./images/mediazona.png').default%>">
-            <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
-            <h3 class="news-card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-            <p class="news-card__paragraph">Знаменитый фотограф снимает первозданные леса России,
-              чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу,
-              где...</p>
-            <p class="news-card__author">Медиазона</p>
+            <div class="news-card__info">
+              <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
+              <h3 class="news-card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+              <p class="news-card__paragraph">Знаменитый фотограф снимает первозданные леса России,
+                чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу,
+                где...</p>
+              <p class="news-card__author">Медиазона</p>
+            </div>
           </a>
         </div>
         <button class="news__button button">Показать еще</button>
@@ -111,8 +123,10 @@
           <h2 class="about-author__title title">Об авторе</h2>
           <p class="about-author__subtitle subtitle">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь,
             какими технологиями разработки владеете.</p>
-          <p class="about-author__subtitle about-author__subtitle_break  subtitle">Также можно рассказать о процессе обучения в Практикуме, чему вы тут
+          <p class="about-author__subtitle about-author__subtitle_break subtitle">Также можно рассказать о процессе обучения в Практикуме, чему вы тут
             научились, и чем можете помочь потенциальным заказчикам.</p>
+          <p class="about-author__subtitle about-author__subtitle_contact subtitle">Если хотите, оставьте свои контакты: email и телефон. Так заказчики
+            смогут с вами связаться.</p>
         </div>
       </section>
       <section class="footer page__footer">
@@ -148,9 +162,7 @@
         </ul>
       </section>
     </div>
-
   </div>
   <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
-
 </body>
 </html>

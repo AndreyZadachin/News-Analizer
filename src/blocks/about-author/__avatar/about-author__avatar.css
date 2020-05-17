@@ -1,5 +1,20 @@
 .about-author__avatar {
   width: 464px;
-  height: 464px;
   margin-right: 0;
+}
+
+
+@media (max-width: 1024px) {
+  .about-author__avatar {
+    width: 232px;
+    height: 232px;
+    align-self: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 544px) {
+  .about-author__avatar {
+    width: 272px;
+    height: 272px;
+  }
 }

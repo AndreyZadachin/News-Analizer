@@ -1,0 +1,12 @@
+.analitic__container {
+  margin-top: 12px;
+  width: 100%;
+  border-top: 1px solid #1A1B22;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__container {
+    margin-top: 8px;
+  }
+}

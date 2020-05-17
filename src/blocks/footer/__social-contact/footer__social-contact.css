@@ -3,5 +3,20 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  margin-left: 310px;
+}
+
+
+@media (max-width: 768px) {
+  .footer__social-contact {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__social-contact {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    margin: 0;
+  }
 }

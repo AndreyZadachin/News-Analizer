@@ -1,9 +1,15 @@
 .analitic__table-date {
-  width: 104px;
   font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 80px;
+  line-height: 76px;
   color: #1A1B22;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-date {
+    width: 104px;
+  }
 }

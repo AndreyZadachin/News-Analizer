@@ -1,4 +1,8 @@
 .analitic__table-dates {
+  width: 8.5%;
+  height: 532px;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }

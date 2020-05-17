@@ -1,3 +1,16 @@
 .page__footer {
-  margin: 7.5% 7.4% 1.7% 7.2%;
+  padding: 2.08% 7.4% 1.8% 7.2%;
+}
+
+
+@media (max-width: 768px) {
+  .page__footer {
+    padding: 2.7% 5.5% 2.9% 5.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__footer {
+    padding: 3% 5.6% 6.9% 5%;
+  }
 }

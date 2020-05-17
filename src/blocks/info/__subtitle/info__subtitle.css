@@ -1,7 +1,8 @@
 .info__subtitle {
-  margin: 0 521px 24px 104px;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .info__subtitle:last-child {
-  margin-bottom: 94px;
+  margin-bottom: 0;
 }

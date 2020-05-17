@@ -2,16 +2,21 @@
   margin: 5.4% 28.8% 5.5% 28.9%;
 }
 
-/*
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .page__search {
     margin: 5% 20.3% 6.2% 21%;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 426px) and (max-width: 767px) {
   .page__search {
-    margin: 9.3% 5% 10% 5.9%;
+    margin: 9% 9%;
   }
 }
-*/
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .page__search {
+    margin: 9.3% 5% 10% 5%;
+  }
+}
