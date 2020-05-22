@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js'
+    filename: 'scripts/[name].[chunkhash].js'
   },
   module: {
     rules: [{
@@ -29,7 +29,7 @@ module.exports = {
                 (isDev ? 'style-loader': {
                    loader:  MiniCssExtractPlugin.loader,
                 options: {
-                    publicPath: '../'
+                    publicPath: '../dist'
                 }
             }),
                 'css-loader',
@@ -53,7 +53,7 @@ module.exports = {
 },
 plugins: [
   new MiniCssExtractPlugin({
-    filename: '[name].[contenthash].css'
+    filename: 'styles/[name].[contenthash].css'
   }),
   new OptimizeCssAssetsPlugin({
     assetNameRegExp: /\.css$/g,
