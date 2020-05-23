@@ -1,6 +1,6 @@
-## https://AndreyZadachin.github.io/DiplomFront
+## DiplomFront
 
-# DiplomFront
+# https://AndreyZadachin.github.io/DiplomFront
 
 ======
 ### Yandex.Praktikum Diplom Frontend
