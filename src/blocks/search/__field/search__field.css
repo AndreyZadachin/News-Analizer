@@ -1,0 +1,30 @@
+.search__field {
+  max-width: 608px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .search__field {
+    max-width: 448px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .search__field {
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .search__field {
+    flex-direction: column;
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}

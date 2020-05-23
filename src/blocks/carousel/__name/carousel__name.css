@@ -1,0 +1,17 @@
+.carousel__name {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1A1B22;
+  margin: 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .carousel__name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

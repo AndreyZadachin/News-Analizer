@@ -1,0 +1,9 @@
+.request__item-nav-last {
+  color: #B6BCBF;
+  margin: 0;
+}
+
+
+.request__item-nav-last:hover {
+  opacity: unset;
+}

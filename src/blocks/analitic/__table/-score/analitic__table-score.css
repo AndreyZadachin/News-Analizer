@@ -1,0 +1,22 @@
+@import url('./_first/analitic__table-score_first.css');
+@import url('./_second/analitic__table-score_second.css');
+@import url('./_third/analitic__table-score_third.css');
+@import url('./_fourth/analitic__table-score_fourth.css');
+@import url('./_fifth/analitic__table-score_fifth.css');
+@import url('./_sixth/analitic__table-score_sixth.css');
+@import url('./_seventh/analitic__table-score_seventh.css');
+
+.analitic__table-score {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1A1B22;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #2F71E5;
+  padding: 4px;
+  box-sizing: border-box;
+}

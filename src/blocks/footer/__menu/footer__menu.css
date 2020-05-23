@@ -1,0 +1,29 @@
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  margin-left: 17px;
+}
+
+
+@media (max-width: 768px) {
+  .footer__menu {
+    margin-left: 44px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__menu {
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 26px;
+    line-height: 48px;
+  }
+}

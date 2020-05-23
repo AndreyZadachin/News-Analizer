@@ -1,0 +1,16 @@
+.analitic__table-score.analitic__table-score_first {
+  padding-right: 14.46%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-score.analitic__table-score_first {
+    padding-right: 19.29%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__table-score.analitic__table-score_first {
+    padding-right: 9.4%;
+  }
+}

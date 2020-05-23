@@ -1,0 +1,16 @@
+.analitic__table-score.analitic__table-score_third {
+  padding-right: 9%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-score.analitic__table-score_third {
+    padding-right: 11.5%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__table-score.analitic__table-score_third {
+    padding-right: 4%;
+  }
+}

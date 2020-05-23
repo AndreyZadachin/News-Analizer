@@ -1,0 +1,10 @@
+@import url('./__item/request__item.css');
+@import url('./__list/request__list.css');
+@import url('./__text/request__text.css');
+@import url('./__title/request__title.css');
+@import url('./__text-span/request__text-span.css');
+
+.request {
+  display: flex;
+  flex-direction: column;
+}

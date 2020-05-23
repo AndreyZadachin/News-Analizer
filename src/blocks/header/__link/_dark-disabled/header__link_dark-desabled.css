@@ -1,0 +1,7 @@
+.header__link_dark-disabled {
+  color: #B6BCBF;
+}
+
+.header__link_dark-disabled:hover {
+  color: #1A1B22;
+}

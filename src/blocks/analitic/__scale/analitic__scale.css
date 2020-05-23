@@ -1,0 +1,24 @@
+@import url('./-item/analitic__scale-item.css');
+
+.analitic__scale {
+  margin: 4px 0 0 8.5%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__scale {
+    width: 101%;
+    padding-left: 17%;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__scale {
+    display: none;
+  }
+}

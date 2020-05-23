@@ -1,0 +1,16 @@
+.page__info {
+  padding: 5.56% 36.2% 6.53% 7.23%;
+}
+
+
+@media (max-width: 768px) {
+  .page__info {
+  padding: 3.8% 5.2% 7.5% 5.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__info {
+    padding: 5% 5% 10% 5%;
+  }
+}

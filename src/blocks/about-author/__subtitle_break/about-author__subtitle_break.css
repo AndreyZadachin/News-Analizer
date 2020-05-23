@@ -1,0 +1,10 @@
+.about-author__subtitle_break {
+  margin-top: 24px;
+}
+
+
+@media (max-width: 768px) {
+  .about-author__subtitle_break {
+    margin-top: 0;
+  }
+}

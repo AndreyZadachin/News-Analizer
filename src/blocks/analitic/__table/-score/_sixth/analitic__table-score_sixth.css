@@ -1,0 +1,16 @@
+.analitic__table-score.analitic__table-score_sixth {
+  padding-right: 70.8%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-score.analitic__table-score_sixth {
+    padding-right: 96.8%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__table-score.analitic__table-score_sixth {
+    padding-right: 90%;
+  }
+}

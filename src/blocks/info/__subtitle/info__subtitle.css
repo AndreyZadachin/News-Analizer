@@ -1,0 +1,8 @@
+.info__subtitle {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.info__subtitle:last-child {
+  margin-bottom: 0;
+}

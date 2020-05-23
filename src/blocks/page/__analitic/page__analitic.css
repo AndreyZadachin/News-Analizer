@@ -1,0 +1,16 @@
+.page__analitic {
+  padding: 5.55% 7.22% 5.8% 7.22%;
+}
+
+
+@media (max-width: 768px) {
+  .page__analitic {
+    padding: 5.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__analitic {
+    padding: 7.5% 5% 4% 5%;
+  }
+}

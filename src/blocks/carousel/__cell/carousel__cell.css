@@ -1,0 +1,28 @@
+.carousel__cell {
+  padding: 24px;
+  width: 400px;
+  height: 288px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  margin-right: 16px;
+  box-sizing: border-box;
+  counter-increment: carousel-cell;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .carousel__cell {
+    width: 336px;
+    height: 242px;
+    margin-right: 8px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .carousel__cell {
+    width: 288px;
+    height: 264px;
+    padding: 16px;
+  }
+}

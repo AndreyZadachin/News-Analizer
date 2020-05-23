@@ -1,0 +1,17 @@
+.analitic__table-scores {
+  width: 91.5%;
+  height: 532px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__table-scores {
+    margin-left: 60px;
+  }
+}

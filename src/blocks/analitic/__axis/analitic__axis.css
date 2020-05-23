@@ -1,0 +1,12 @@
+.analitic__axis {
+  max-width: 1232px;
+  display: flex;
+  margin-top: 48px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .analitic__axis {
+    margin-top: 16px;
+  }
+}

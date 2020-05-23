@@ -1,0 +1,11 @@
+.carousel__info {
+  display: flex;
+  margin-top: 16px;
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .carousel__info {
+    margin-top: 8px;
+  }
+}

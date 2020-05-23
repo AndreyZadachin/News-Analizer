@@ -1,0 +1,19 @@
+.analitic__repeat {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+  margin: 0;
+  margin-left: 4.4%;
+}
+
+
+@media (max-width: 768px) {
+  .analitic__repeat {
+    margin-left: 9.7%;
+  }
+}

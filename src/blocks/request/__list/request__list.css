@@ -1,0 +1,12 @@
+.request__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .request__list {
+    display: none;
+  }
+}

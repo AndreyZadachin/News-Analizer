@@ -1,0 +1,39 @@
+@import url('./_dark/header__title_dark.css');
+
+.header__title {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  margin: 0;
+  margin-right: 50%;
+}
+
+
+@media (max-width: 1024px) {
+  .header__title {
+    margin-right: 39%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    margin-right: 38.6%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .header__title {
+    margin-right: 30%;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .header__title {
+    margin-right: 9.3%;
+    font-size: 16px;
+  }
+}

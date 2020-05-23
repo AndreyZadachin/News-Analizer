@@ -1,0 +1,23 @@
+.request__title {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 23px;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+@media (max-width: 768px) {
+  .request__title {
+    margin-top: 63px;
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .request__title {
+    margin-top: 4px;
+    margin-bottom: 16px;
+  }
+}
