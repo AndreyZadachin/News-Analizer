@@ -26,9 +26,10 @@
           <h1 class="search__title">Что в мире творится?</h1>
           <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
             прошедшую неделю.</p>
-          <form class="search__field">
-            <input class="search__input" type="search" placeholder="Введите тему новости" minlength="2" required>
-            <button class="search__button button" type="submit">Искать</button>
+          <form class="search__field" novalidate>
+            <input class="search__input" type="input" placeholder="Введите тему новости" minlength="2" required autofocus>
+            <span class="error error__search"></span>
+            <button class="search__button button" type="submit" disabled>Искать</button>
           </form>
         </main>
       </div>
