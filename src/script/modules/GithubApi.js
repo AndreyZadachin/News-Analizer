@@ -1,6 +1,3 @@
-/*https://api.github.com/repos/yandex/localization-context-extension/commits
-GET /repos/:owner/:repo/git/commits/:commit_sha
-*/
 export default class GithubApi {
   constructor(url) {
     this.url = url;
