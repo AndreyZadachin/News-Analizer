@@ -20,7 +20,7 @@ export default class FormValidate {
       message = errMessage.validLenght;
     }
     this.event.target.nextElementSibling.textContent = message;
-}
+  }
 
   setSubmitButtonState() {
     if (!this.form.checkValidity()) {

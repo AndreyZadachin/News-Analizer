@@ -1,3 +1,5 @@
+import {formattingDate} from '../utils/formattingDate';
+
 export default class CommitCard {
   constructor() {
   }
@@ -27,9 +29,9 @@ export default class CommitCard {
     const carouselCommit = document.createElement('p');
     carouselCommit.classList.add('carousel__commit');
 
-    carouselCell.setAttribute('href', cardCommit.commit.url)
+    carouselCell.setAttribute('href', cardCommit.commit.url);
     carouselCell.appendChild(carouselDate);
-    carouselDate.textContent = cardCommit.commit.committer.date;
+    carouselDate.textContent = formattingDate(cardCommit.commit.committer.date);
     carouselCell.appendChild(carouselInfo);
     carouselInfo.appendChild(carouselAvatar);
     carouselAvatar.setAttribute('src', cardCommit.author.avatar_url);

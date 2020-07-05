@@ -1,9 +1,29 @@
-/*token = 617c7f67d08945daaf71575e7e9a3488
+export default class NewsApi {
+  constructor(baseUrl, param) {
+    this.baseUrl = baseUrl;
+    this.from = param.from;
+    this.to = param.to;
+    this.apiKey = param.apiKey;
+  }
 
-const proxy = 'https://cors-anywhere.herokuapp.com/'
-		let querie = ''
-		const KEY = '617c7f67d08945daaf71575e7e9a3488';
-		fetch(`${proxy}https://newsapi.org/v2/everything?q=${querie}&apiKey=${KEY}`)
-			.then(response => response.json())
-			.then(data => console.log(data))
-			.catch(err => console.log(err))*/
+  getNews(searchWord) {
+    return fetch(`${this.baseUrl}q=${searchWord}&from=${this.from}&to=${this.to}&sortBy=publishedAt&language=ru&pageSize=100&apiKey=${this.apiKey}`,
+    {
+      method: 'GET',
+      headers: {
+        authorization: this.apiKey,
+      }
+    })
+      .then(res => this.responce(res))
+      .catch(err => {
+        throw err;
+      });
+  }
+
+  responce(res) {
+    if (res.ok) {
+      return res.json();
+    }
+    return Promise.reject(`Что-то пошло не так: ${res.status}`);
+  }
+}

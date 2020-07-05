@@ -4,21 +4,25 @@ import GithubApi from './script/modules/GithubApi';
 import CommitCard from './script/components/CommitCard';
 import CommitCardList from './script/components/CommitCardList';
 
+import {FIRST_COMMIT, LAST_COMMIT, urlGithub} from './script/constants/constants';
+
+//Инизиализаяция слайдера
 const slider = new Flickity( '.carousel', {
-    cellAlign: 'center',
-    wrapAround: true,
-    groupCells: '90%',
- });
+  cellAlign: 'center',
+  wrapAround: true,
+  groupCells: '90%',
+});
 
-const urlGithub = 'https://api.github.com/repos/AndreyZadachin/DiplomFront/commits'
+//Создание и отрисовка карточекс ГитХаб
 const githubApi = new GithubApi (urlGithub);
-
 const commitCardList = new CommitCardList(slider);
 const commitCard = new CommitCard();
 
+//ГитХаб API по получению коммитов
 githubApi.getCommits()
 .then((res) => {
-  res.forEach(carouselCell => commitCardList.renderCommitCard(commitCard.createCardCommit(carouselCell)))
+  res.slice(FIRST_COMMIT, LAST_COMMIT).forEach(carouselCell =>
+    commitCardList.renderCommitCard(commitCard.createCardCommit(carouselCell)))
 })
 .catch((err) => {
   alert(err + ' Запрос не выполнен.');
