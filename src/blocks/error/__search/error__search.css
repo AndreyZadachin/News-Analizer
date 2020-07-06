@@ -1,0 +1,24 @@
+.error__search {
+  width: 80%;
+  font-size: 18px;
+  line-height: 15px;
+  color: red;
+  position: absolute;
+  top: 57px;
+  left: 37px;
+}
+
+
+@media (min-width: 978px) {
+  .error__search {
+  top: 70px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .error__search {
+    width: 90%;
+    font-size: 14px;
+    left: 20px;
+  }
+}

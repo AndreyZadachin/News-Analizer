@@ -1,0 +1,7 @@
+@import url('./__search/error__search.css');
+
+.error {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
