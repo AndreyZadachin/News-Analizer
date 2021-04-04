@@ -7,7 +7,7 @@
   <meta name="description" content="Новости: поиск по ключевому слову и анализ количества повторений за неделю">
   <meta name="keywords" content="HTML5, CSS3, JS">
   <meta name="author" content="Андрей Задачин">
-  <link rel="stylesheet" href="styles/index.952a5662f938d151da07.css">
+  <link rel="stylesheet" href="styles/index.7e13ed01b6175288e074.css">
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
   <title>Что в мире творится?</title>
 </head>
@@ -26,9 +26,10 @@
           <h1 class="search__title">Что в мире творится?</h1>
           <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
             прошедшую неделю.</p>
-          <form class="search__field">
-            <input class="search__input" type="search" placeholder="Введите тему новости" minlength="2" required>
-            <button class="search__button button" type="submit">Искать</button>
+          <form class="search__field" novalidate>
+            <input class="search__input" type="input" placeholder="Введите тему новости" minlength="2" required autofocus>
+            <span class="error error__search"></span>
+            <button class="search__button button" type="submit" disabled>Искать</button>
           </form>
         </main>
       </div>
@@ -50,7 +51,7 @@
           </a>
         </div>
         <div class="news-card">
-          <a href="https://lenta.ru" class="news-card__container link">
+          <!--<a href="https://lenta.ru" class="news-card__container link">
             <img class="news-card__image" alt="Изображение картинки новости" src="./images/lenta.png">
             <div class="news-card__info">
               <time class="news-card__date" datetime="2019-08-02">2 августа, 2019</time>
@@ -113,7 +114,7 @@
                 где...</p>
               <p class="news-card__author">Медиазона</p>
             </div>
-          </a>
+          </a>-->
         </div>
         <button class="news__button button">Показать еще</button>
       </section>
@@ -134,10 +135,10 @@
         <ul class="footer__menu">
           <li class="footer__item list"><a href="./index.html" class="footer__link link">Главная</a></li>
           <li class="footer__item list"><a href="./about.html" class="footer__link link">О проекте</a></li>
-          <li class="footer__item list"><a href="https://praktikum.yandex.ru" class="footer__link link">Яндекс.Практикум</a></li>
+          <li class="footer__item list"><a href="https://praktikum.yandex.ru" target="__blank" class="footer__link link">Яндекс.Практикум</a></li>
         </ul>
         <ul class="footer__social-contact">
-          <li class="footer__list list"><a href="https://github.com/AndreyZadachin" class="footer__icon link"><svg width="24" height="24"
+          <li class="footer__list list"><a href="https://github.com/AndreyZadachin" target="__blank" class="footer__icon link"><svg width="24" height="24"
             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.9998 1.89453C6.41678 1.89453 1.89453 6.42298 1.89453 11.9998C1.89453 16.4662 4.7915 20.2503 8.80507
             21.5902C9.30754 21.6832 9.49364 21.3731 9.49364 21.1001C9.49364 20.8582 9.48744 20.2254 9.48123 19.3818C6.67111
@@ -151,7 +152,7 @@
             19.6857 14.5059 20.7713 14.5059 21.1063C14.5059 21.3793 14.6858 21.6894 15.2007 21.5902C19.2143 20.2503 22.1051
             16.4662 22.1051 12.006C22.1051 6.42298 17.5828 1.89453 11.9998 1.89453Z" fill="#191717"/>
             </svg></a></li>
-          <li class="footer__list list"><a href="https://www.facebook.com" class="footer__icon link"><svg width="24" height="24"
+          <li class="footer__list list"><a href="https://www.facebook.com" target="__blank" class="footer__icon link"><svg width="24" height="24"
             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M20.8958
             2H3.10417C2.49417 2 2 2.49417 2 3.10417V20.8967C2 21.5058 2.49417 22 3.10417
             22H12.6833V14.255H10.0767V11.2367H12.6833V9.01083C12.6833 6.4275 14.2608 5.02083 16.5658 5.02083C17.67 5.02083
@@ -163,6 +164,6 @@
       </section>
     </div>
   </div>
-  <script src="scripts/index.9cbbe8b25f1eb9e80efb.js"></script>
+  <script src="scripts/index.4508e813e87d081116f9.js"></script>
 </body>
 </html>
