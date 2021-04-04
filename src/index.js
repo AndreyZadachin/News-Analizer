@@ -19,7 +19,7 @@ let counter = 0;
 //Три карточки при каждом нажатии кнопки Показать еще
 const maxCount = 3;
 //Параметры для запроса новостей
-const baseUrl = 'https://praktikum.tk/news/v2/everything?';
+const baseUrl = 'https://newsapi.org/v2/everything?';
 const param = {
   apiKey: '617c7f67d08945daaf71575e7e9a3488',
   from: from,
