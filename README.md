@@ -1,6 +1,6 @@
 # News-Analyzer
 
-## https://AndreyZadachin.github.io/News-Analizer
+## https://AndreyZadachin.github.io/News-Analyzer
 
 ======
 
@@ -24,7 +24,7 @@
 
 Инструкция по развертыванию проекта:
 
-1. Склонировать в локальный репозиторий - git clone https://github.com/AndreyZadachin/News-Analizer
+1. Склонировать в локальный репозиторий - git clone https://github.com/AndreyZadachin/News-Analyzer
 2. Установить пакеты (должен быть установлен node.js <https://nodejs.org/en/>) - npm i
 3. Сборка пакета - npm run build
 4. Запуск на локальном сервере - npm run dev
